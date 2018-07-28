@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingBottom="@dimen/dp_16"
+    android:paddingTop="@dimen/dp_8">
+
+    <ImageView
+        android:id="@+id/image_phone_call"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp_24"
+        android:layout_weight="1"
+        android:src="@mipmap/phone_call" />
+
+    <ImageView
+        android:id="@+id/image_message"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp_24"
+        android:layout_weight="1"
+        android:src="@mipmap/envelope" />
+
+    <ImageView
+        android:id="@+id/image_video_call"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp_24"
+        android:layout_weight="1"
+        android:src="@mipmap/camera_video" />
+
+    <ImageView
+        android:id="@+id/image_information"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/dp_24"
+        android:layout_weight="1"
+        android:src="@mipmap/information" />
+
+</LinearLayout>
