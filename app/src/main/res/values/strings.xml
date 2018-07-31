@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ListContact</string>
+    <string name="message_get_contacts_error">Đã có lỗi xảy ra</string>
+    <string name="permission_notification">Vui lòng cấp quyền cho ứng dụng!</string>
 </resources>
